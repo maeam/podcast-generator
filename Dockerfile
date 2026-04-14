@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y \
     # Version matches local venv, not the course
-    python3.12.3 \
+    python3.12 \
     python3-pip \
     git
 
